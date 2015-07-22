@@ -1,0 +1,52 @@
+{
+  "name": "bbop-widget-solr-autocomplete",
+  "version": "0.0.1",
+  "license": "BSD",
+  "description": "Autocomplete widget for Solr.",
+  "keywords": [
+    "node",
+    "npm",
+    "gene ontology",
+    "GO",
+    "widget",
+    "autocomplete",
+    "solr"
+  ],
+  "author": "JNX <jnguyenxuan@lbl.gov> (http://berkeleybop.org/)",
+  "homepage": "http://berkeleybop.org/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/berkeleybop/bbop-widget-solr-autocomplete"
+  },
+  "engines": {
+    "node": ">= 0.12.2",
+    "npm": ">= 2.7.4"
+  },
+  "dependencies": {
+    "jquery": "2.1.4",
+    "jquery-ui": "^1.10.5",
+    "underscore": "1.8.3",
+    "selectize": "0.12.1"
+  },
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-bump": "^0.3.0",
+    "gulp-git": "^1.2.3",
+    "gulp-jsdoc": "^0.1.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0"
+  },
+  "bundleDependencies": [],
+  "private": false,
+  "main": "lib/bbop-widget-solr-autocomplete.js",
+  "bugs": {
+    "url": "https://github.com/berkeleybop/bbop-widget-solr-autocomplete/issues"
+  },
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
