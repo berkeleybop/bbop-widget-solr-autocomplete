@@ -1,8 +1,8 @@
 {
-  "name": "bbop-widget-solr-autocomplete",
+  "name": "bbop-widget-solr-autocomplete-consumer",
   "version": "0.0.1",
   "license": "BSD-2-Clause",
-  "description": "Autocomplete widget for Solr.",
+  "description": "Show case of the widet.",
   "keywords": [
     "node",
     "npm",
@@ -23,11 +23,7 @@
     "npm": ">= 2.7.4"
   },
   "dependencies": {
-    "jquery": "^2.1.4",
-    "jquery-ui": "^1.10.5",
-    "underscore": "^1.8.3",
-    "selectize": "^0.12.1",
-    "bbop": "^2.3.0"
+    "bbop-widget-solr-autocomplete": "latest"
   },
   "devDependencies": {
     "browserify": "^10.2.1",
