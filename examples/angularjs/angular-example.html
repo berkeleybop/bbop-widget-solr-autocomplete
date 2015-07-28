@@ -1,0 +1,16 @@
+<html ng-app="angularexample">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="node_modules/bbop-widget-solr-autocomplete/node_modules/selectize/dist/css/selectize.css">
+</head>
+
+<body ng-controller="angularexamplectrl">
+
+  <select id="select_disease" placeholder="Pick a Disease..." ng-model="exampleModel" ng-init="init()"></select>
+
+  {{exampleModel}}
+
+  <script type="text/javascript" src="angular-example-compiled.js"></script>
+</body>
+
+</html>
